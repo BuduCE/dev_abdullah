@@ -76,25 +76,6 @@ button{
     }
     .cont-item-content{
         margin: 20px 0px;
-        width: 100%;
-    }
-    .cont-desc{
-        display: none;
-    }
-    form{
-        margin-top: 0px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    input{
-        width: 30%;
-        margin: 10px;
-        margin-left: 0px;
-    }
-    button{
-        margin-top: 10px;
-    }
-    .cont{
-        height: 100vh;
+        w100
     }
 }

@@ -24,16 +24,5 @@
 
 /* Responsiveness */
 @media screen and (max-width:480px){
-    .pL{
-        padding: 10px;
-    }
-    .pL-title{
-        font-size: 30px;
-    }
-    .pL-texts{
-        width: 100%;
-    }
-    .pL-desc{
-        display: none;
-    }
+    .pL
 }

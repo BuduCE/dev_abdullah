@@ -24,16 +24,12 @@
 
 /* Responsiveness */
 @media screen and (max-width:480px){
-    .pL{
-        padding: 10px;
-    }
     .pL-title{
-        font-size: 30px;
+        font-size{
+            30
+        }
     }
     .pL-texts{
-        width: 100%;
-    }
-    .pL-desc{
-        display: none;
+        width: 90%;
     }
 }

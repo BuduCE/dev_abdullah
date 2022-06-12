@@ -32,8 +32,5 @@
 
 /* Responsiveness */
 @media screen and (max-width:480px){
-    .pdt{
-        width: 40%;
-        height: 20vh;
-    }
+    
 }
