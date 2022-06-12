@@ -21,11 +21,8 @@ code {
   }
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme){
   h1,p,div{
     color: black;
-  }
-  div{
-    background-color: white;
   }
 }

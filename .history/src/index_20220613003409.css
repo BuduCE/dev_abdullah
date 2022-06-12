@@ -12,20 +12,4 @@ code {
     monospace;
 }
 
-@media (prefers-color-scheme: dark){
-  h1,p,div{
-    color: white;
-  }
-  div{
-    background-color: black;
-  }
-}
-
-@media (prefers-color-scheme: light){
-  h1,p,div{
-    color: black;
-  }
-  div{
-    background-color: white;
-  }
-}
+@media (prefers-color-scheme: dark)

@@ -17,15 +17,6 @@ code {
     color: white;
   }
   div{
-    background-color: black;
-  }
-}
-
-@media (prefers-color-scheme: light){
-  h1,p,div{
-    color: black;
-  }
-  div{
-    background-color: white;
+    
   }
 }

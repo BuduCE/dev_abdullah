@@ -100,13 +100,11 @@ button{
 }
 
 @media (prefers-color-scheme: dark){
-    input,textarea{
-        background-color: #999;
+    input{
+        background-color: ;
     }
   }
   
   @media (prefers-color-scheme: light){
-    input,textarea{
-        background-color: #fff;
-    }
+    
   }
