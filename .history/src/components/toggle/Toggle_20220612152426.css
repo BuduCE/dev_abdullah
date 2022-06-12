@@ -16,12 +16,4 @@
     width: 15px;
     height: 15px;
 }
-.toggle-btn{
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #999;
-    cursor: pointer;
-    right: 0;
-}
+.toggl

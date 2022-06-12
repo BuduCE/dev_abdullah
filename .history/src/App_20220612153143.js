@@ -12,9 +12,9 @@ function App() {
   return <div>
       <Toggle />
       <Intro />
-      <About />
-      <ProductList />
-      <Contact />
+      <About dark={dark}/>
+      <ProductList dark={dark}/>
+      <Contact dark={dark}/>
     </div>
 };
 

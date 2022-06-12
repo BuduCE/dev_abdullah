@@ -7,14 +7,13 @@ import ProductList from './components/productList/ProductList';
 import Toggle from './components/toggle/Toggle';
 
 function App() {
-
   // const [dark, setDark] = useState(false)
   return <div>
-      <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
-      <Contact />
+      <Toggle setDark={setDark}/>
+      <Intro dark={dark}/>
+      <About dark={dark}/>
+      <ProductList dark={dark}/>
+      <Contact dark={dark}/>
     </div>
 };
 

@@ -13,8 +13,8 @@ function App() {
       <Toggle />
       <Intro />
       <About />
-      <ProductList />
-      <Contact />
+      <ProductList dark={dark}/>
+      <Contact dark={dark}/>
     </div>
 };
 

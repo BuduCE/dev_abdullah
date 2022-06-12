@@ -14,7 +14,7 @@ function App() {
       <Intro />
       <About />
       <ProductList />
-      <Contact />
+      <Contact dark={dark}/>
     </div>
 };
 

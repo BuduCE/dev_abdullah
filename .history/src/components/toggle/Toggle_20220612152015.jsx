@@ -6,8 +6,8 @@ import moon from '../../images/moon.jpg'
 const Toggle = () => {
   return (
     <div className='toggle'>
-        <img src={sun} alt="" className='toggle-icon'/>
-        <img src={moon} alt="" className='toggle-icon'/>
+        <img src={sun} alt="" className=''/>
+        <img src={moon} alt="" />
         <div className="toggle-btn"></div>
     </div>
   )

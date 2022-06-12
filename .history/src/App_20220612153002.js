@@ -7,10 +7,9 @@ import ProductList from './components/productList/ProductList';
 import Toggle from './components/toggle/Toggle';
 
 function App() {
-
-  // const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(false)
   return <div>
-      <Toggle />
+      <Toggle setDark={true/>
       <Intro />
       <About />
       <ProductList />

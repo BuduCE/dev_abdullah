@@ -11,10 +11,10 @@ function App() {
   // const [dark, setDark] = useState(false)
   return <div>
       <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
-      <Contact />
+      <Intro dark={dark}/>
+      <About dark={dark}/>
+      <ProductList dark={dark}/>
+      <Contact dark={dark}/>
     </div>
 };
 
