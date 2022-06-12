@@ -74,21 +74,7 @@
     color: gray;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 480px){
-    .abt{
-        flex-direction: column;
-        text-align: center;
-    }
-    .abt-l{
-        width: 100%;
-    }
-    .abt-card{
-        height: 30vh;
-    }
-    .abt-card::after,.abt-award{
-        display: none;
-    }
-    .abt-r{
-        padding: 30px;
-    }
+.dev-skill-container{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
 }

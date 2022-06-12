@@ -67,7 +67,7 @@ button{
 
 /* Responsiveness */
 @media screen and (max-width: 480px){
-    .cont-container{
+    .dev{
         flex-direction: column;
     }
 }

@@ -93,7 +93,7 @@
         height: 100%;
         animation: move 10s ease-in-out infinite alternate;
     } */
-    /* @keyframes move {
+    @keyframes move {
         25%{
             transform: translateX(50px);
         }
@@ -105,6 +105,6 @@
         }
         100% {
             transform: translateX(200px);
-        } */
-    /* } */
+        }
+    }
 }

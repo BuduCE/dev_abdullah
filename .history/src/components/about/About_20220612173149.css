@@ -77,7 +77,6 @@
 @media screen and (max-width: 480px){
     .abt{
         flex-direction: column;
-        text-align: center;
     }
     .abt-l{
         width: 100%;
@@ -85,10 +84,8 @@
     .abt-card{
         height: 30vh;
     }
-    .abt-card::after,.abt-award{
+ */
+    .abt-card::after{
         display: none;
-    }
-    .abt-r{
-        padding: 30px;
     }
 }
