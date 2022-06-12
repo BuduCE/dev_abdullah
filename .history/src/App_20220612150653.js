@@ -8,7 +8,7 @@ import Toggle from './components/toggle/Toggle';
 
 function App() {
   return <div>
-      <Toggle />
+      <Toggle
       <Intro />
       <About />
       <ProductList />
