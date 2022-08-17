@@ -1,0 +1,81 @@
+.abt{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.abt-r{
+    w90%
+}
+.abt-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: auto;
+    /* position: relative; */
+}
+.abt-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.abt-desc{
+    margin: 20px 0 20px 0;
+}
+.abt-title{
+    font-weight: 400;
+}
+.abt-award{
+    width: 50%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.abt2-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+.abt2-award-text{
+    width: 100%;
+}
+.award-title{
+    font-size: bold;
+    color: gray;
+    margin-bottom: 5px;
+}
+.award-desc{
+    font-weight: 300;
+}
+.mob{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .abt{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+    }
+    .abt-l{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .abt-card{
+        height: 30vh;
+    }
+    .abt-card::after,.abt-award,.abt-sub{
+        display: none;
+    }
+    .abt-r{
+        padding: 30px;
+    }
+    /* .mob{
+        display:
+    } */
+    .des{
+        display: none;
+    }
+}
