@@ -59,9 +59,10 @@
   justify-content: center;
   z-index: 2;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width){
   .switch{
-    position: relative;
+    /* margin: auto; */
+    position: ;
     text-align: center;
   }
 }

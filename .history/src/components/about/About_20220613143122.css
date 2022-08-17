@@ -75,7 +75,7 @@
     margin-bottom: 10px;
 }
 .mob{
-    display: none;
+    display: ;
 }
 @media screen and (max-width: 480px){
     .abt{
@@ -89,15 +89,12 @@
     .abt-card{
         height: 30vh;
     }
-    .abt-card::after,.abt-award,.abt-sub{
+    .abt-card::after,.abt-award{
         display: none;
     }
     .abt-r{
         padding: 30px;
     }
-    /* .mob{
-        display:
-    } */
     .des{
         display: none;
     }

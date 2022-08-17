@@ -6,14 +6,13 @@ const About = () => {
     <div className='abt'>
         <div className="abt-l">
 
-          <h1 className="abt-title mob">About Me</h1>
-
-          <div className="abt-card">
-              <img src="https://images.pexels.com/photos/5496467/pexels-photo-5496467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="abt-img" />
-          </div>
+          
+            <div className="abt-card">
+                <img src="https://images.pexels.com/photos/5496467/pexels-photo-5496467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="abt-img" />
+            </div>
         </div>
         <div className="abt-r">
-          <h1 className="des">About Me</h1>
+          <h1 className="abt-title">About Me</h1>
 
           <p className="abt-sub">
             It is a long established fact that a reader will be distracted by readable content.

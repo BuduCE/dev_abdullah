@@ -61,7 +61,8 @@
 }
 @media screen and (max-width:480px){
   .switch{
-    position: relative;
+    pos
+    margin: auto;
     text-align: center;
   }
 }

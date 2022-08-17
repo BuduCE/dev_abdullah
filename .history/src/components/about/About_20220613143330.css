@@ -89,9 +89,10 @@
     .abt-card{
         height: 30vh;
     }
-    .abt-card::after,.abt-award,.abt-sub{
+    .abt-card::after,.abt-award{
         display: none;
     }
+    .abt
     .abt-r{
         padding: 30px;
     }
