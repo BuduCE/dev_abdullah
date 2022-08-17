@@ -68,24 +68,21 @@
     top: 0;
     right: 0;
 }
+
 /* Responsiveness */
 @media screen and (max-width: 480px){
     .dev{
         grid-template-rows: 1fr;
     }
     .dev-l{
+        /* width: 100%; */
+        /* padding: 10px; */
         align-items: center;
         text-align: center;
         justify-content: center;
         height: 100%;
-        background: url("../../images/me.png") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-         background-size: cover;
-         background-color: rgba(50, 70, 80, 0.7);
-        background-blend-mode: soft-light;
+        background-color: rgb(121, 78, 121);
+        background: url(../../);
     }
     .abt-dev,.dev-r{
         display: none;

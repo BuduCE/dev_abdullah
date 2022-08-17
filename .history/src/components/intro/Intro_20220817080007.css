@@ -68,26 +68,38 @@
     top: 0;
     right: 0;
 }
+
 /* Responsiveness */
 @media screen and (max-width: 480px){
     .dev{
-        grid-template-rows: 1fr;
+        grid
     }
-    .dev-l{
+    .dev-l-container{
+        padding: 10px;
         align-items: center;
         text-align: center;
         justify-content: center;
         height: 100%;
-        background: url("../../images/me.png") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-         background-size: cover;
-         background-color: rgba(50, 70, 80, 0.7);
-        background-blend-mode: soft-light;
     }
-    .abt-dev,.dev-r{
+    .abt-dev{
         display: none;
     }
+    /* .dev-skill-container{
+        height: 100%;
+        animation: move 10s ease-in-out infinite alternate;
+    } */
+    /* @keyframes move {
+        25%{
+            transform: translateX(50px);
+        }
+        50% {
+            transform: translateX(100px);
+        }
+        75% {
+            transform: translateX(150px);
+        }
+        100% {
+            transform: translateX(200px);
+        } */
+    /* } */
 }

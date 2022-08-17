@@ -36,7 +36,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(121, 78, 121);
+    color: rgb(60, 198, 60);
 }
 .dev-skill-container{
     height: 100%;
@@ -60,7 +60,6 @@
     /* clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
     clip-path: ellipse(100% 44% at 100% 51%);
     /* background-color: rgb(60, 198, 60); */
-    background-color: rgb(121, 78, 121);
     /* color: rgba(48, 4, 48, 0); */
     width: 100%;
     height: 100%;
@@ -68,26 +67,38 @@
     top: 0;
     right: 0;
 }
+
 /* Responsiveness */
 @media screen and (max-width: 480px){
     .dev{
-        grid-template-rows: 1fr;
+        flex-direction: column;
     }
-    .dev-l{
+    .dev-l-container{
+        padding: 10px;
         align-items: center;
         text-align: center;
         justify-content: center;
         height: 100%;
-        background: url("../../images/me.png") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-         background-size: cover;
-         background-color: rgba(50, 70, 80, 0.7);
-        background-blend-mode: soft-light;
     }
-    .abt-dev,.dev-r{
+    .abt-dev{
         display: none;
     }
+    /* .dev-skill-container{
+        height: 100%;
+        animation: move 10s ease-in-out infinite alternate;
+    } */
+    /* @keyframes move {
+        25%{
+            transform: translateX(50px);
+        }
+        50% {
+            transform: translateX(100px);
+        }
+        75% {
+            transform: translateX(150px);
+        }
+        100% {
+            transform: translateX(200px);
+        } */
+    /* } */
 }

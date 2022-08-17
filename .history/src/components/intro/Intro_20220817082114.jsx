@@ -5,7 +5,8 @@ import Me from '../../images/me.png'
 const Intro = () => {
   return (
     <div className='dev'>
-      {/* Name and Skill intro */}
+      <div className="main"></div>
+      {/* Name and Skil intro */}
         <div className="dev-l">
           <h2 className='dev-intro'>Hello, My name is</h2>
           <h1 className='dev-name'>Abdullah Oladeji</h1>

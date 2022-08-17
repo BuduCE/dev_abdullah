@@ -5,7 +5,7 @@ import Me from '../../images/me.png'
 const Intro = () => {
   return (
     <div className='dev'>
-      {/* Name and Skill intro */}
+      {/* Name and Skil intro */}
         <div className="dev-l">
           <h2 className='dev-intro'>Hello, My name is</h2>
           <h1 className='dev-name'>Abdullah Oladeji</h1>
@@ -15,6 +15,8 @@ const Intro = () => {
               <div className="dev-skill-item">Web-Developer</div>
 
               <div className="dev-skill-item">Data Analyst</div>
+
+              <div className="dev-skill-item">Data Entry</div>
             </div>
           </div>
 
